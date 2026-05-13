@@ -23,7 +23,4 @@ public class ExerciciosEntity {
     @Column(name="grupo_muscular", nullable = false)
     private String grupoMuscular;
 
-    @ManyToOne
-    @JoinColumn(name = "aluno_id")
-    private AlunosEntity aluno;
 }
